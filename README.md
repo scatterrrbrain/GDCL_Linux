@@ -7,9 +7,9 @@ This guide will focus on setting up GDCL S8 launcher as a non-steam game in Stea
 <img width="1271" height="559" alt="GDCL_Steam_preview" src="https://github.com/user-attachments/assets/eef9f2f6-bfa2-478f-b4ef-b6f8c813967c" />
 
 # Pre-requisites
-Download the Community League Launcher from the [GDCL website][https://www.grimdawnleague.com/#/about]. 
+Download the Community League Launcher from the [GDCL website](https://www.grimdawnleague.com/#/about). 
 Make sure to read the about page for general instructions and check out the 
-GDCL [discord][https://discord.gg/n94PcmV] if you have questions etc.
+GDCL [discord](https://discord.gg/n94PcmV) if you have questions etc.
 
 ## 1. Unzip the GDCommunityLauncher.zip into your Grim Dawn installation folder
 - You can easily find this by right clicking on your Grim Dawn steam icon and
@@ -29,7 +29,7 @@ the same folder as your Grim Dawn.exe!
 
 ## 2. Add 'GDCommunityLauncher.exe' as a non-steam game in Steam
 
-- You can either do this manually, or by using my [GDCL_Steam][https://github.com/scatterrrbrain/GDCL_Steam] bootstrapper.
+- You can either do this manually, or by using my [GDCL_Steam](https://github.com/scatterrrbrain/GDCL_Steam) bootstrapper.
 Note that the bootstrapper is currently experimental!
 
 ### Manual
@@ -77,7 +77,7 @@ global_opt_1 ... global_opt_n %command% game_option_1 ... game_option_n
 ```
 where each option is separated by a space.
 
-- Good sources of information are [ProtonDB][https://www.protondb.com/app/219990] and the [CachyOS wiki][https://wiki.cachyos.org/configuration/gaming/]
+- Good sources of information are [ProtonDB](https://www.protondb.com/app/219990) and the [CachyOS wiki](https://wiki.cachyos.org/configuration/gaming/)
 
 - My current launch options for example are
 ```
