@@ -4,6 +4,8 @@
 
 This guide will focus on setting up GDCL S8 launcher as a non-steam game in Steam.
 
+<img width="1271" height="559" alt="GDCL_Steam_preview" src="https://github.com/user-attachments/assets/eef9f2f6-bfa2-478f-b4ef-b6f8c813967c" />
+
 # Pre-requisites
 Download the Community League Launcher from the [GDCL website][https://www.grimdawnleague.com/#/about]. 
 Make sure to read the about page for general instructions and check out the 
@@ -15,6 +17,7 @@ navigating to
 ```
 Manage -> Browse Local Files
 ```
+<img width="480" height="405" alt="browselocalfiles" src="https://github.com/user-attachments/assets/eb551ee8-7731-49dc-814f-a012fe7a49f4" />
 
 - The default installation path is something like
 ```
@@ -30,6 +33,9 @@ the same folder as your Grim Dawn.exe!
 Note that the bootstrapper is currently experimental!
 
 ### Manual
+
+<img width="1907" height="1009" alt="nonsteamgame" src="https://github.com/user-attachments/assets/64457ee6-d1cd-4ebd-9316-a989fff0f18e" />
+
 - Navigate to bottom left of your Steam game library.
   ```
   -> 'Add a Game' -> 'Add a Non-Steam Game' -> 'Browse'
@@ -38,6 +44,8 @@ Note that the bootstrapper is currently experimental!
 - Navigate to your Grim Dawn installation folder and select 'GDCommunityLauncher.exe'
 
 - Click 'Add Selected Programs'
+
+<img width="695" height="642" alt="nonsteambrowse" src="https://github.com/user-attachments/assets/e97b8bec-5539-4312-a934-4c729f0cb213" />
 
 ### Bootstrapper
 - Read the bootstrapper documentation! This handles a lot of the tedious steps (if it works...).
@@ -56,6 +64,8 @@ in your Steam Game Library.
 
 - Do not change the 'TARGET' and 'START IN' fields, they should be set to your 
 'GDCommunityLauncher.exe' and 'Grim Dawn' paths respectively.
+
+<img width="836" height="594" alt="GD_shortcut" src="https://github.com/user-attachments/assets/ff178833-3146-4a91-8697-3624dee03ccb" />
 
 ### Launch Options
 - Set the launch options used by GDCommunityLauncher.exe. These are separate from your Grim Dawn
@@ -76,6 +86,8 @@ PROTON_ENABLE_WAYLAND=1 taskset -c 1-11 mangohud game-performance %command%
 but since these can be very system dependant, you shouldn't just copy these blindly.
 
 ### Compatability
+<img width="834" height="595" alt="gdcompat" src="https://github.com/user-attachments/assets/5ceeb06b-37c0-4acb-af20-264438b154c6" />
+
 - Select the compatability tool you want to use for GDCL.
 
 - Updates can break these every now and then so change if necessary.
@@ -100,6 +112,7 @@ but since these can be very system dependant, you shouldn't just copy these blin
 
 - The bootstrapper should handle most of this.
 
+<img width="902" height="979" alt="GD_art" src="https://github.com/user-attachments/assets/118a89ad-e2df-464f-8f27-fd2e698b0032" />
 
 ## Setting Migration
 - Steam games ran with Proton get (some of) their settings stored under their respective Proton
